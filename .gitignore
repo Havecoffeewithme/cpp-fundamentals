@@ -1,7 +1,10 @@
-# C++ compiled executables
+# C++ executables
 *.out
 *.o
+switchs
+
+# macOS debug files
 *.dSYM/
 
-# macOS files
+# macOS system files
 .DS_Store
