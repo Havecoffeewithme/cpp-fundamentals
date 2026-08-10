@@ -1,0 +1,7 @@
+# C++ compiled executables
+*.out
+*.o
+*.dSYM/
+
+# macOS files
+.DS_Store
