@@ -5,6 +5,7 @@
 int main()
 {
     int number, i;
+    int sum = 0;
 
     std::cout << "Enter the number n ";
     std::cin >> number;
@@ -13,10 +14,13 @@ int main()
    {
     if(number % i == 0)
     {
-        std::cout << i << std::endl; 
+        sum = sum + i;
+        
     }
 
    }
+
+   std::cout << sum << '\n';
 
     return 0;
 
