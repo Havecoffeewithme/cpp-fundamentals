@@ -16,6 +16,11 @@ int main()
     }
 
     cout << "The maximum number is " << max << endl;
+    cout << endl; 
+    cout << endl; 
+
+    
+
 
     return 0;
 
